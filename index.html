@@ -179,6 +179,37 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     
     <script src="js/grayscale.min.js"></script>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107853331-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107853331-1');
+    </script>
+
+<!--     <?php 
+            $file = fopen(‘log.html’, ‘a’);
+
+
+
+            $time = date(‘H:i dS F’);
+            fwrite($file, ‘<b>Time:</b> $time<br/>’ );
+
+            fwrite( $file, ‘<b>Ip Address:</b> $REMOTE_ADDR<br/>’);
+
+            fwrite($file, ‘<b>Referer:</b> $HTTP_REFFERER<br/>’);
+
+            fwrite( $file, ‘<b>Browser:</b> $HTTP_USER_AGENT<hr/>’);
+
+            fclose( $file );
+
+
+    ?> -->
+
 </body>
 
 </html>
+
